@@ -1,4 +1,3 @@
-
 export const links = [
   {
     name: 'Home',
@@ -48,37 +47,35 @@ export const portfolios = [
     github: 'https://github.com',
     demo: 'https://dribbble.com/demo/portfolio-crypto-wallet-library',
   },
- 
   {
     id: 4,
-    image: eLearning,
-    title: 'React, StyledComp, Framer-motion',
-    github: 'https://github.com/Bobomurod04/interactive-react-elearning',
-    demo: 'https://bobe-learning.netlify.app/',
-  },
-  {
-    id: 5,
     image: QRcode,
     title: 'React QR Code Generator',
     github: 'https://github.com',
     demo: 'https://qrgenerator1.netlify.app/',
   },
   {
-    id: 6,
+    id: 5,
     image: bobDev,
     title: 'HTML, CSS, JS Portfolio',
-    github: 'https://github.com',
+    github: 'https://github.com/Bobomurod04/JS-Portfolio',
     demo: 'https://bobdev.netlify.app/',
   },
   {
     id: 6,
     image: Schnee,
     title: 'HTML, CSS, JS Schnee Animation',
-    github: 'https://github.com',
+    github: 'https://github.com/Bobomurod04/Project-Schnee',
     demo: 'https://schnee.netlify.app/',
   },
+  {
+    id: 7,
+    image: eLearning,
+    title: 'React, StyledComp, Framer-motion',
+    github: 'https://github.com/Bobomurod04/interactive-react-elearning',
+    demo: 'https://bobe-learning.netlify.app/',
+  },
 ].reverse()
-
 
 export const testimonials = [
   {
@@ -103,7 +100,7 @@ export const testimonials = [
     quote:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.',
     job: 'University Lecturer',
-    avatar: require('./assets/avatar3.jpg'),
+    avatar: require('./assets/testimonial1.png'),
   },
   {
     id: 4,
@@ -111,7 +108,7 @@ export const testimonials = [
     quote:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.',
     job: 'Talking Parrot',
-    avatar: require('./assets/avatar4.jpg'),
+    avatar: require('./assets/testimonial2.png'),
   },
   {
     id: 5,
@@ -119,8 +116,6 @@ export const testimonials = [
     quote:
       'Maxime minima cumque sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.',
     job: 'Pharmacist',
-    avatar: require('./assets/avatar5.jpg'),
-  }
+    avatar: require('./assets/testimonial1.png'),
+  },
 ]
-
-
